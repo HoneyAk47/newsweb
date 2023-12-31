@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="pics/ak spider.png">
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <nav>
+
+    <div class="nav_cont flex container"> 
+        <div class="pic">
+            <img src="pics/ak spider.png" alt="logo" >
+    </div>
+            
+    
+        <div class="nav-links ">
+            <ul class="flex ul">
+                <a>
+                    <li class="home_hover" id="home" onclick="reload()">Home</li>
+                </a>
+                
+                <li class="li_hover" id="PSL" onclick="navclick('PSL')">PSL</li>
+                <li class="li_hover" id="Games" onclick="navclick('Games')">Games
+                </li>
+                <li class="li_hover" id="Health" onclick="navclick('Health')">Health</li>
+                <li class="li_hover"id="Technology" onclick="navclick('Technology')">Technology</li>
+            </ul>
+        </div>
+       
+        <div class="search_div flex" >
+            <input type="text" class="input_news" id="search_text"placeholder="eg. cricket">
+            <button class="search_bt" id="search_bt">search</button>
+           </div>
+        </div>
+    </nav>
+    <main>
+        <div class="card_container container flex" id="card_container">
+        
+        </div>
+        <template id="template_card">
+            <div class="card">
+                <div class="card_img"><img src="https://via.placeholder.com/400x200" alt="not relod" id="news_img">
+            </div>
+            <div class="card_content">
+                <h3 id="news_title">this is the card</h3>
+                <h6 id="news_date">end gatedet</h6>
+                <p id="news_desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde accusamus, consequuntur veniam optio quae aut!</p>
+            </div>
+            </div>
+        </template>
+
+    </main>
+   <footer>
+    <div class="footer_cont">
+    <div class="socail_media flex ul">
+        <ul><a href="https://mail.google.com/ak9557110@gmail.com" target="_blank"><img src="pics/icons8-email-50.png" alt=""></a></ul>
+        <ul><a href="https://www.facebook.com/awais.khalid.520900" target="_blank"><img src="pics/icons8-facebook-50 - Copy.png" alt=""></a></ul>
+        <ul><a href="https://www.instagram.com/awaiskhalid1205/" target="_blank"><img src="pics/icons8-instagram-50 - Copy.png" alt=""></a></ul>
+        <ul></ul>
+    </div>
+    <div class="contact ">
+        <ul class="flex ul">
+            <li>Contact</li>
+            <li>About</li>
+            <li>Privacy</li>
+        </ul>
+    </div>
+    <div class="flex ul"><p>Copyright © 2023 All copywrite reserved Ak47</p></div>
+</div>
+   </footer> 
+    <script src="new.js"></script>
+</body>
+</html>
